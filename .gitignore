@@ -1,0 +1,35 @@
+# Variáveis de ambiente (senhas, URLs de banco)
+.env
+.env.*
+!.env.example
+
+# Ambiente virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Bancos locais (SQLite de teste/CI)
+*.db
+*.sqlite3
+
+# Editores e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+#Correços do Github
+.git-antigo/
